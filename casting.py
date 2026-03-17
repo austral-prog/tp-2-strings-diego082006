@@ -4,7 +4,9 @@ def casting():
     descuento = float(input("Descuento: "))
     cantidad = int(input("Cantidad: "))
     precio_con_descuento = precio - descuento
-    print("Precio con descuento:", precio_con_descuento)
     total = precio_con_descuento * cantidad
-    print("Total:", total)
+    print(f"Precio: {precio}")
+    print(f"Descuento: {descuento}")
+    print(f"Precio con descuento: {precio_con_descuento}")
+    print(f"Total: {total}")
     pass
