@@ -8,4 +8,3 @@ def names():
     print(nombre.title() + " " + apellido.title())
     print(nombre.upper() + " " + apellido.upper())
     print("\t" + nombre.lower() +  " " + apellido.lower())
-    pass
