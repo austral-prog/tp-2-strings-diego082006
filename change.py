@@ -1,5 +1,5 @@
 def change():
-    """Lee un gasto y el dinero recibido, calcula el vuelto
+    """ee un gasto y el dinero recibido, calcula el vuelto
     y lo separa en pesos (parte entera) y centavos.
     """
     print("Ingresar gasto:")
@@ -8,10 +8,10 @@ def change():
     print("Dinero recibido")
     pago = int(input())
     
-    vuelto = round(pago - gasto, 2)
+    vuelto_centavos = int(round((pago - gasto) * 100))
     
-    pesos = int(vuelto)
-    centavos = int(round((vuelto - pesos) * 100))
+    pesos = vuelto_centavos // 100
+    centavos = vuelto_centavos % 100
     
     print()
     print("Vuelto")
