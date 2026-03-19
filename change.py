@@ -12,9 +12,9 @@ def change():
     pesos = int(vuelto)
     centavos = int(round((vuelto - pesos) * 100))
     
-    print("")
+    print()
     print("Vuelto")
-    print("")
+    print()
     print("Pesos:")
     print(pesos)
     print("Centavos:")
