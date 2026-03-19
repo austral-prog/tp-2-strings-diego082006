@@ -8,7 +8,8 @@ def change():
     print("Dinero recibido")
     pago = int(input())
     
-    vuelto = pago - gasto
+    vuelto = round(pago - gasto, 2)
+    
     pesos = int(vuelto)
     centavos = int(round((vuelto - pesos) * 100))
     
